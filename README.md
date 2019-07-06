@@ -7,7 +7,7 @@
 ラズパイの初期設定を済ませている状況で以下を実行し、MJPEG-Streamerを用いて配信状態にする。
 
 ```
-/usr/local/bin/mjpg_streamer -i "input_raspicam.so -x 640 -y 480 -fps 15 -q 80" -o "output_http.so -p 8080 -w /usr/local/share/mjpg-streamer/www" 
+/usr/local/bin/mjpg_streamer -i "input_raspicam.so -x 640 -y 480 -fps 120 -rot 180 -q 80" -o "output_http.so -p 8080 -w /usr/local/share/mjpg-streamer/www" 
 ```
 
 カメラオプションが必要な場合は適宜追加する。
