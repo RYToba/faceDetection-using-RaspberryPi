@@ -23,3 +23,5 @@
 検出された顔情報を矩形切り取りし、同ディレクトリ上のimgフォルダに格納していく。
 
 得られた画像は機械学習などで使用し、特定人物の顔識別などに使用。
+
+![raspberrypi_and_camera](https://user-images.githubusercontent.com/39150905/61575720-4c525e80-ab0a-11e9-9ed4-a3db2e516552.png)
