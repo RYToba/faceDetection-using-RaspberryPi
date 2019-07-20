@@ -1,4 +1,4 @@
-# faceDetection-using-RaspberryPi
+# faceDetection using RaspberryPi
 
 目的：PiCameraを使用してストリーミングしている映像を自PC上で取得し顔認識にかける。
 
